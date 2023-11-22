@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:hint="@string/enter_location">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/locationInputField"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.google.android.material.textfield.TextInputEditText>
+</com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/getWeatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get">
+
+    </Button>
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Temp"
+        android:textSize="20sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

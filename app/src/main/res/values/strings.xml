@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="enter_location">Enter location</string>
+    <string name="Temp">Weather</string>
+    <string name="get">Get weather</string>
+    <string name="unable_to_retrieve_data">Unable to retrieve data</string>
+</resources>
